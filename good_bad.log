@@ -1,0 +1,16 @@
+2022-08-01 10:57:22,912 the exceution will be start from here
+2022-08-01 10:57:22,913 i am going to start the cleaning
+2022-08-01 10:57:23,168 error has occured
+2022-08-01 10:57:23,169 [Errno 13] Permission denied: 'C:\\Users\\Admin\\Desktop\\MACHINE_LEARNING_PROJECT\\data_file\\.ipynb_checkpoints'
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_5872/852356779.py", line 23, in Good_bad_seperation_new
+    shutil.copy(b,path+'bad_data1')
+  File "C:\ProgramData\Anaconda3\lib\shutil.py", line 426, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\ProgramData\Anaconda3\lib\shutil.py", line 265, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\Desktop\\MACHINE_LEARNING_PROJECT\\data_file\\.ipynb_checkpoints'
+2022-08-01 10:58:54,902 the exceution will be start from here
+2022-08-01 10:58:54,903 i am going to start the cleaning
+2022-08-01 11:28:40,795 the exceution will be start from here
+2022-08-01 11:28:40,795 i am going to start the cleaning

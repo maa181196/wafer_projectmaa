@@ -1,0 +1,201 @@
+2022-08-01 12:40:04,859 the exceution will be start from here
+2022-08-01 12:40:04,861 error has occured
+2022-08-01 12:40:04,861 [Errno 2] No such file or directory: 'wafer_13012020_090817.csv'
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_9408/2623432326.py", line 7, in fill_na_value
+    df =pd.read_csv(i)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers\base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'wafer_13012020_090817.csv'
+2022-08-01 12:40:34,718 the exceution will be start from here
+2022-08-01 12:40:34,831 error has occured
+2022-08-01 12:40:34,832 Could not convert Wafer-1201Wafer-1202Wafer-1203Wafer-1204Wafer-1205Wafer-1206Wafer-1207Wafer-1208Wafer-1209Wafer-1210Wafer-1211Wafer-1212Wafer-1213Wafer-1214Wafer-1215Wafer-1216Wafer-1217Wafer-1218Wafer-1219Wafer-1220Wafer-1221Wafer-1222Wafer-1223Wafer-1224Wafer-1225Wafer-1226Wafer-1227Wafer-1228Wafer-1229Wafer-1230Wafer-1231Wafer-1232Wafer-1233Wafer-1234Wafer-1235Wafer-1236Wafer-1237Wafer-1238Wafer-1239Wafer-1240Wafer-1241Wafer-1242Wafer-1243Wafer-1244Wafer-1245Wafer-1246Wafer-1247Wafer-1248Wafer-1249Wafer-1250Wafer-1251Wafer-1252Wafer-1253Wafer-1254Wafer-1255Wafer-1256Wafer-1257Wafer-1258Wafer-1259Wafer-1260Wafer-1261Wafer-1262Wafer-1263Wafer-1264Wafer-1265Wafer-1266Wafer-1267Wafer-1268Wafer-1269Wafer-1270Wafer-1271Wafer-1272Wafer-1273Wafer-1274Wafer-1275Wafer-1276Wafer-1277Wafer-1278Wafer-1279Wafer-1280Wafer-1281Wafer-1282Wafer-1283Wafer-1284Wafer-1285Wafer-1286Wafer-1287Wafer-1288Wafer-1289Wafer-1290Wafer-1291Wafer-1292Wafer-1293Wafer-1294Wafer-1295Wafer-1296Wafer-1297Wafer-1298Wafer-1299Wafer-1300 to numeric
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 1602, in _ensure_numeric
+    x = float(x)
+ValueError: could not convert string to float: 'Wafer-1201Wafer-1202Wafer-1203Wafer-1204Wafer-1205Wafer-1206Wafer-1207Wafer-1208Wafer-1209Wafer-1210Wafer-1211Wafer-1212Wafer-1213Wafer-1214Wafer-1215Wafer-1216Wafer-1217Wafer-1218Wafer-1219Wafer-1220Wafer-1221Wafer-1222Wafer-1223Wafer-1224Wafer-1225Wafer-1226Wafer-1227Wafer-1228Wafer-1229Wafer-1230Wafer-1231Wafer-1232Wafer-1233Wafer-1234Wafer-1235Wafer-1236Wafer-1237Wafer-1238Wafer-1239Wafer-1240Wafer-1241Wafer-1242Wafer-1243Wafer-1244Wafer-1245Wafer-1246Wafer-1247Wafer-1248Wafer-1249Wafer-1250Wafer-1251Wafer-1252Wafer-1253Wafer-1254Wafer-1255Wafer-1256Wafer-1257Wafer-1258Wafer-1259Wafer-1260Wafer-1261Wafer-1262Wafer-1263Wafer-1264Wafer-1265Wafer-1266Wafer-1267Wafer-1268Wafer-1269Wafer-1270Wafer-1271Wafer-1272Wafer-1273Wafer-1274Wafer-1275Wafer-1276Wafer-1277Wafer-1278Wafer-1279Wafer-1280Wafer-1281Wafer-1282Wafer-1283Wafer-1284Wafer-1285Wafer-1286Wafer-1287Wafer-1288Wafer-1289Wafer-1290Wafer-1291Wafer-1292Wafer-1293Wafer-1294Wafer-1295Wafer-1296Wafer-1297Wafer-1298Wafer-1299Wafer-1300'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 1606, in _ensure_numeric
+    x = complex(x)
+ValueError: complex() arg is a malformed string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_9408/2751794815.py", line 9, in fill_na_value
+    a=df[j].mean()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 10751, in mean
+    return NDFrame.mean(self, axis, skipna, level, numeric_only, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 10369, in mean
+    return self._stat_function(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 10354, in _stat_function
+    return self._reduce(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 4392, in _reduce
+    return op(delegate, skipna=skipna, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 93, in _f
+    return f(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 155, in f
+    result = alt(values, axis=axis, skipna=skipna, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 410, in new_func
+    result = func(values, axis=axis, skipna=skipna, mask=mask, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 665, in nanmean
+    the_sum = _ensure_numeric(values.sum(axis, dtype=dtype_sum))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 1609, in _ensure_numeric
+    raise TypeError(f"Could not convert {x} to numeric") from err
+TypeError: Could not convert Wafer-1201Wafer-1202Wafer-1203Wafer-1204Wafer-1205Wafer-1206Wafer-1207Wafer-1208Wafer-1209Wafer-1210Wafer-1211Wafer-1212Wafer-1213Wafer-1214Wafer-1215Wafer-1216Wafer-1217Wafer-1218Wafer-1219Wafer-1220Wafer-1221Wafer-1222Wafer-1223Wafer-1224Wafer-1225Wafer-1226Wafer-1227Wafer-1228Wafer-1229Wafer-1230Wafer-1231Wafer-1232Wafer-1233Wafer-1234Wafer-1235Wafer-1236Wafer-1237Wafer-1238Wafer-1239Wafer-1240Wafer-1241Wafer-1242Wafer-1243Wafer-1244Wafer-1245Wafer-1246Wafer-1247Wafer-1248Wafer-1249Wafer-1250Wafer-1251Wafer-1252Wafer-1253Wafer-1254Wafer-1255Wafer-1256Wafer-1257Wafer-1258Wafer-1259Wafer-1260Wafer-1261Wafer-1262Wafer-1263Wafer-1264Wafer-1265Wafer-1266Wafer-1267Wafer-1268Wafer-1269Wafer-1270Wafer-1271Wafer-1272Wafer-1273Wafer-1274Wafer-1275Wafer-1276Wafer-1277Wafer-1278Wafer-1279Wafer-1280Wafer-1281Wafer-1282Wafer-1283Wafer-1284Wafer-1285Wafer-1286Wafer-1287Wafer-1288Wafer-1289Wafer-1290Wafer-1291Wafer-1292Wafer-1293Wafer-1294Wafer-1295Wafer-1296Wafer-1297Wafer-1298Wafer-1299Wafer-1300 to numeric
+2022-08-01 14:10:11,394 the exceution will be start from here
+2022-08-01 14:10:13,622 error has occured
+2022-08-01 14:10:13,623 module 'logging' has no attribute 'ingo'
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_9408/2900465291.py", line 11, in fill_na_value
+    lg.ingo("task completed")
+AttributeError: module 'logging' has no attribute 'ingo'
+2022-08-01 14:10:40,829 the exceution will be start from here
+2022-08-01 14:10:42,188 task completed
+2022-08-01 14:15:16,248 the exceution will be start from here
+2022-08-01 14:15:18,043 task completed
+2022-08-01 14:28:27,593 the exceution will be start from here
+2022-08-01 14:28:27,696 error has occured
+2022-08-01 14:28:27,697 module 'csv' has no attribute 'to_csv'
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_9408/2872183454.py", line 10, in fill_na_value
+    csv.to_csv(a, index=None, header=True)
+AttributeError: module 'csv' has no attribute 'to_csv'
+2022-08-01 14:29:12,158 the exceution will be start from here
+2022-08-01 14:30:44,774 the exceution will be start from here
+2022-08-01 14:36:33,087 task completed
+2022-08-01 14:41:54,343 the exceution will be start from here
+2022-08-01 14:41:56,518 error has occured
+2022-08-01 14:41:56,519 "['Unnamed: 0'] not found in axis"
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_14980/2784467760.py", line 10, in fill_na_value
+    df.drop('Unnamed: 0',axis =1 ,inplace =True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 4906, in drop
+    return super().drop(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 4150, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 4185, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 6017, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['Unnamed: 0'] not found in axis"
+2022-08-01 14:43:11,948 the exceution will be start from here
+2022-08-01 14:43:13,767 error has occured
+2022-08-01 14:43:13,767 "['Unnamed: 0'] not found in axis"
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_14980/2784467760.py", line 10, in fill_na_value
+    df.drop('Unnamed: 0',axis =1 ,inplace =True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 4906, in drop
+    return super().drop(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 4150, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 4185, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 6017, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['Unnamed: 0'] not found in axis"
+2022-08-01 14:53:30,998 the exceution will be start from here
+2022-08-01 14:53:32,776 error has occured
+2022-08-01 14:53:32,776 "['Unnamed: 0'] not found in axis"
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_14012/2784467760.py", line 10, in fill_na_value
+    df.drop('Unnamed: 0',axis =1 ,inplace =True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py", line 4906, in drop
+    return super().drop(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 4150, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 4185, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 6017, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: "['Unnamed: 0'] not found in axis"
+2022-08-01 14:55:01,621 the exceution will be start from here
+2022-08-01 14:55:34,164 the exceution will be start from here
+2022-08-01 14:56:59,493 the exceution will be start from here
+2022-08-01 14:57:01,337 task completed
+2022-08-10 11:51:40,195 the exceution will be start from here
+2022-08-10 11:51:40,308 error has occured
+2022-08-10 11:51:40,309 Could not convert Wafer-1201Wafer-1202Wafer-1203Wafer-1204Wafer-1205Wafer-1206Wafer-1207Wafer-1208Wafer-1209Wafer-1210Wafer-1211Wafer-1212Wafer-1213Wafer-1214Wafer-1215Wafer-1216Wafer-1217Wafer-1218Wafer-1219Wafer-1220Wafer-1221Wafer-1222Wafer-1223Wafer-1224Wafer-1225Wafer-1226Wafer-1227Wafer-1228Wafer-1229Wafer-1230Wafer-1231Wafer-1232Wafer-1233Wafer-1234Wafer-1235Wafer-1236Wafer-1237Wafer-1238Wafer-1239Wafer-1240Wafer-1241Wafer-1242Wafer-1243Wafer-1244Wafer-1245Wafer-1246Wafer-1247Wafer-1248Wafer-1249Wafer-1250Wafer-1251Wafer-1252Wafer-1253Wafer-1254Wafer-1255Wafer-1256Wafer-1257Wafer-1258Wafer-1259Wafer-1260Wafer-1261Wafer-1262Wafer-1263Wafer-1264Wafer-1265Wafer-1266Wafer-1267Wafer-1268Wafer-1269Wafer-1270Wafer-1271Wafer-1272Wafer-1273Wafer-1274Wafer-1275Wafer-1276Wafer-1277Wafer-1278Wafer-1279Wafer-1280Wafer-1281Wafer-1282Wafer-1283Wafer-1284Wafer-1285Wafer-1286Wafer-1287Wafer-1288Wafer-1289Wafer-1290Wafer-1291Wafer-1292Wafer-1293Wafer-1294Wafer-1295Wafer-1296Wafer-1297Wafer-1298Wafer-1299Wafer-1300 to numeric
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 1602, in _ensure_numeric
+    x = float(x)
+ValueError: could not convert string to float: 'Wafer-1201Wafer-1202Wafer-1203Wafer-1204Wafer-1205Wafer-1206Wafer-1207Wafer-1208Wafer-1209Wafer-1210Wafer-1211Wafer-1212Wafer-1213Wafer-1214Wafer-1215Wafer-1216Wafer-1217Wafer-1218Wafer-1219Wafer-1220Wafer-1221Wafer-1222Wafer-1223Wafer-1224Wafer-1225Wafer-1226Wafer-1227Wafer-1228Wafer-1229Wafer-1230Wafer-1231Wafer-1232Wafer-1233Wafer-1234Wafer-1235Wafer-1236Wafer-1237Wafer-1238Wafer-1239Wafer-1240Wafer-1241Wafer-1242Wafer-1243Wafer-1244Wafer-1245Wafer-1246Wafer-1247Wafer-1248Wafer-1249Wafer-1250Wafer-1251Wafer-1252Wafer-1253Wafer-1254Wafer-1255Wafer-1256Wafer-1257Wafer-1258Wafer-1259Wafer-1260Wafer-1261Wafer-1262Wafer-1263Wafer-1264Wafer-1265Wafer-1266Wafer-1267Wafer-1268Wafer-1269Wafer-1270Wafer-1271Wafer-1272Wafer-1273Wafer-1274Wafer-1275Wafer-1276Wafer-1277Wafer-1278Wafer-1279Wafer-1280Wafer-1281Wafer-1282Wafer-1283Wafer-1284Wafer-1285Wafer-1286Wafer-1287Wafer-1288Wafer-1289Wafer-1290Wafer-1291Wafer-1292Wafer-1293Wafer-1294Wafer-1295Wafer-1296Wafer-1297Wafer-1298Wafer-1299Wafer-1300'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 1606, in _ensure_numeric
+    x = complex(x)
+ValueError: complex() arg is a malformed string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_4752/3185668265.py", line 9, in fill_na_value
+    df[j].fillna(value =df[j].mean(),inplace =True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 10751, in mean
+    return NDFrame.mean(self, axis, skipna, level, numeric_only, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 10369, in mean
+    return self._stat_function(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 10354, in _stat_function
+    return self._reduce(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py", line 4392, in _reduce
+    return op(delegate, skipna=skipna, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 93, in _f
+    return f(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 155, in f
+    result = alt(values, axis=axis, skipna=skipna, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 410, in new_func
+    result = func(values, axis=axis, skipna=skipna, mask=mask, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 665, in nanmean
+    the_sum = _ensure_numeric(values.sum(axis, dtype=dtype_sum))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\nanops.py", line 1609, in _ensure_numeric
+    raise TypeError(f"Could not convert {x} to numeric") from err
+TypeError: Could not convert Wafer-1201Wafer-1202Wafer-1203Wafer-1204Wafer-1205Wafer-1206Wafer-1207Wafer-1208Wafer-1209Wafer-1210Wafer-1211Wafer-1212Wafer-1213Wafer-1214Wafer-1215Wafer-1216Wafer-1217Wafer-1218Wafer-1219Wafer-1220Wafer-1221Wafer-1222Wafer-1223Wafer-1224Wafer-1225Wafer-1226Wafer-1227Wafer-1228Wafer-1229Wafer-1230Wafer-1231Wafer-1232Wafer-1233Wafer-1234Wafer-1235Wafer-1236Wafer-1237Wafer-1238Wafer-1239Wafer-1240Wafer-1241Wafer-1242Wafer-1243Wafer-1244Wafer-1245Wafer-1246Wafer-1247Wafer-1248Wafer-1249Wafer-1250Wafer-1251Wafer-1252Wafer-1253Wafer-1254Wafer-1255Wafer-1256Wafer-1257Wafer-1258Wafer-1259Wafer-1260Wafer-1261Wafer-1262Wafer-1263Wafer-1264Wafer-1265Wafer-1266Wafer-1267Wafer-1268Wafer-1269Wafer-1270Wafer-1271Wafer-1272Wafer-1273Wafer-1274Wafer-1275Wafer-1276Wafer-1277Wafer-1278Wafer-1279Wafer-1280Wafer-1281Wafer-1282Wafer-1283Wafer-1284Wafer-1285Wafer-1286Wafer-1287Wafer-1288Wafer-1289Wafer-1290Wafer-1291Wafer-1292Wafer-1293Wafer-1294Wafer-1295Wafer-1296Wafer-1297Wafer-1298Wafer-1299Wafer-1300 to numeric
+2022-08-10 12:00:07,866 the exceution will be start from here
+2022-08-10 12:00:08,062 error has occured
+2022-08-10 12:00:08,062 [Errno 13] Permission denied: 'C:\\Users\\Admin\\Desktop\\MACHINE_LEARNING_PROJECT\\good_data1\\wafer_13012020_090817.csv'
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_4752/2279567176.py", line 10, in fill_na_value
+    df.to_csv(a,index =None, header =True)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 3466, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\formats\csvs.py", line 237, in save
+    with get_handle(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\common.py", line 702, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Admin\\Desktop\\MACHINE_LEARNING_PROJECT\\good_data1\\wafer_13012020_090817.csv'
+2022-08-10 12:01:15,472 the exceution will be start from here
+2022-08-10 12:01:17,069 task completed
+2022-08-10 12:06:33,504 the exceution will be start from here
+2022-08-10 12:12:56,163 the exceution will be start from here
+2022-08-10 12:17:27,391 the exceution will be start from here
+2022-08-10 12:23:43,543 the exceution will be start from here
+2022-08-10 12:23:44,343 task completed
+2022-08-10 12:23:45,502 the exceution will be start from here
+2022-08-10 12:30:18,620 task completed

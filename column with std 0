@@ -1,0 +1,10 @@
+2022-08-19 12:59:08,546 the exceution will be start from here
+2022-08-19 12:59:10,866 error has occured
+2022-08-19 12:59:10,867 name 'std' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Temp/ipykernel_14440/4002007145.py", line 11, in listing_the_column_with_having_same_value
+    if properties[i][std]==0:
+NameError: name 'std' is not defined
+2022-08-19 13:59:29,331 the exceution will be start from here
+2022-08-19 14:01:02,833 the exceution will be start from here
+2022-08-19 14:11:51,002 the exceution will be start from here
